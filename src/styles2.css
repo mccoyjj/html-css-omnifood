@@ -4,15 +4,6 @@ body {
   line-height: 1.4;
 }
 
-.freeshipping {
-  color: gray;
-  font-size: 16px;
-}
-
-a:visited {
-  color: rgb(43, 40, 40);
-}
-
 button {
   border: none;
 }
@@ -29,4 +20,20 @@ button:hover {
 
 .price {
   font-size: 24px;
+}
+
+.freeshipping {
+  color: #777;
+  font-size: 12 px;
+  font-weight: bold;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
 }
