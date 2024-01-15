@@ -100,8 +100,12 @@ div.container::after {
   display: inline-block;
   color: white;
   font-size: 10px;
-  padding: 5px 10px;
+  padding: 5px 15px;
   font-weight: bold;
+  position: absolute;
+  top: -10px;
+  left: -25px;
+  border: 0.5px solid black;
 }
 
 /* PRODUCT DETAILS */
@@ -116,4 +120,16 @@ div.container::after {
 .addcart {
   background-color: black;
   width: 100%;
+}
+
+/* COLOR BAR CODE */
+
+div.color-bar p {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+div.color-bar p:first-child {
+  margin-left: none;
 }
