@@ -122,13 +122,14 @@ button:hover {
   width: 100%;
 }
 .center-element {
-  width: 243px;
+  width: 250px;
   float: left;
+  padding: 30px;
 }
 .details-container {
-  width: 243px;
+  width: 235px;
   position: relative;
-  margin: 4px 40px;
+  margin: 40px 40px;
   float: left;
 }
 /* COLOR BAR CODE */
@@ -136,9 +137,8 @@ button:hover {
 .color-bar {
   float: left;
   width: 243px;
-}
-.color-bar p {
-  display: inline-block;
+  display: flex;
+  gap: 10px;
   padding: 10px;
   margin-top: 20px;
 }
@@ -157,10 +157,25 @@ button:hover {
   float: left;
 }
 
+/* COLORS */
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+}
 
-
-
-
-
-/
-
+.color-blue {
+  background-color: #2f6ee2;
+}
+.color-red {
+  background-color: #ec2f2f;
+}
+.color-yellow {
+  background-color: #f0bf1e;
+}
+.color-green {
+  background-color: #90cc20;
+}
+.color-brown {
+  background-color: #885214;
+}
